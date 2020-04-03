@@ -285,3 +285,46 @@ h1 span:nth-child(6){
 h1 span:nth-child(7){
   animation-delay:3.5s;
 }
+
+
+@media(max-width:767px) and (min-width:320px){
+  section h1{
+    letter-spacing: 0.02em;
+    font-size:3em;
+
+    }
+  .boss .header img{
+    float:left;
+    width:30px;
+
+  }
+  .boss{
+    margin:auto;
+    padding:auto;
+  }
+.diff ul{
+  float:left;
+  margin:0;
+  padding:0;
+}
+  .container .pr1{
+    width:100%;
+  }
+  .container .pr2{
+    display:none;
+  }
+  .pr h1{
+    width:10px;
+    text-align: left;
+    float:left;
+  }
+  .section b{
+    margin:20px;
+    text-align: center;
+  }
+   .card{
+     width: 100%;
+     height:40%;
+
+   }
+}
